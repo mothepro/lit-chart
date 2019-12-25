@@ -1,0 +1,12 @@
+
+{
+	"imports": {
+		"d3/": "https://unpkg.com/d3@5.14.2/",
+		"d3": "https://unpkg.com/d3@5.14.2/index.js",
+    "lit-element/": "https://unpkg.com/lit-element@2.2.1/",
+    "lit-element": "https://unpkg.com/lit-element@2.2.1/lit-element.js",
+		"lit-html/": "https://unpkg.com/lit-html@1.1.2/",
+    "lit-html": "https://unpkg.com/lit-html@1.1.2/lit-html.js"
+	}
+}
+

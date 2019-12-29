@@ -48,7 +48,6 @@
     "typescript": "^3.7.4"
   },
   "dependencies": {
-    "d3": "^5.14.2",
     "lit-element": "^2.2.1"
   }
 }

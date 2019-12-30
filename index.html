@@ -31,9 +31,23 @@
     lit-chart::part(for-0) {
       stroke: #0074d9;
     }
+    .for-0.block {
+      background-color:  #0074d9;
+    }
 
     lit-chart::part(for-1) {
       stroke: red;
+    }
+    .for-1.block {
+      background-color: red;
+    }
+
+    .block {
+      border: thin solid black;
+      display:inline-block;
+      position: relative;
+      width: 1em;
+      height: 1em;
     }
   </style>
 </head>
@@ -54,6 +68,11 @@
       [5, 6, 100, 60, 50, 45, 50, 78, 99, 10]
     ]"
   ></lit-chart>
+
+  <legend>
+    <div class="block for-0"></div> 1<sup>st</sup> Data Set<br/>
+    <div class="block for-1"></div> 2<sup>nd</sup> Data Set<br/>
+  </legend>
 
 </body>
 

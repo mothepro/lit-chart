@@ -15,16 +15,45 @@
   <script dev-only type="module" src="//unpkg.com/@mothepro/ts-module-shim/dist/esm/index.js"></script>
   <script dev-only type="module-shim" src="../index.ts"></script>
   <style>
-    lit-chart {
-      stroke: #0074d9;
+    lit-chart::part(line) {
       stroke-width: 2px;
+    }
+
+    lit-chart::part(circle) {
+      r: 1;
+      stroke-width: 2px;
+    }
+
+    lit-chart::part(circle):hover {
+      stroke-width: 15px;
+    }
+
+    lit-chart::part(for-0) {
+      stroke: #0074d9;
+    }
+
+    lit-chart::part(for-1) {
+      stroke: red;
     }
   </style>
 </head>
 
 <body>
 
-  <lit-chart width=500 height=300 data="[[0, 5, 1, 4, 2, 3]]"></lit-chart>
+  <lit-chart 
+    width=600
+    height=300
+    min-value=0
+    max-value=100
+    data="[
+      [62, 99, 21, 62, 89, 97, 16, 79, 60, 95,
+       81, 23, 6, 93, 36, 24, 89, 86, 86, 54,
+       29, 57, 24, 94, 69, 57, 46, 86, 85, 19,
+       42, 99, 1, 76, 29, 40, 28, 56, 56, 95,
+       31, 4, 29, 81, 73, 63, 35, 66, 7, 12], 
+      [5, 6, 100, 60, 50, 45, 50, 78, 99, 10]
+    ]"
+  ></lit-chart>
 
 </body>
 

@@ -1,6 +1,6 @@
 {
   "name": "@mothepro/lit-chart",
-  "description": "Simple Line Charts made with d3",
+  "description": "Simple Line Charts made with pure SVGs",
   "author": "Maurice Prosper",
   "version": "0.0.0",
   "license": "Apache-2.0",

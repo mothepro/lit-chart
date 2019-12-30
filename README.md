@@ -4,7 +4,7 @@
 
 ## Install
 
-`yarn add lit-chart`
+`yarn add @mothepro/lit-chart`
 
 ## Attributes
 
@@ -12,9 +12,9 @@ Attribute | Type | Description
 ----------|------|------------
 `width` | `number` | Width, in pixels, of the SVG
 `height` | `number` | Height, in pixels, of the SVG
-`data` | `number[][]` | Data values to display in the chart. Out array contains the data sets. Inner array contains points to chart
-`max-value` | `number` | Max value to display on chart. *Defaults to the maximum value given in `data`*.
-`min-value` | `number` | Min value to display on chart. *Defaults to the minimum value given in `data`*.
+`data` | `number[][]` | Data values to display in the chart.<br/> Outer array contains the data sets & inner array contains points to chart.
+`max-value` | `number` | Max value to display on chart.<br/> *Defaults to the maximum value given in `data`*
+`min-value` | `number` | Min value to display on chart.<br/> *Defaults to the minimum value given in `data`*
 
 ## How to Use
 

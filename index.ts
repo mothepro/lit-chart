@@ -11,7 +11,7 @@ export default class extends LitElement {
   @property({ type: Number })
   height = 0
 
-  @property({ type: Array })
+  @property({ type: Array, reflect: true })
   data: Data[] = []
 
   @property({ type: Number, attribute: 'max-value' })
